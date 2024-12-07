@@ -10,7 +10,7 @@ App.use(express.json())
 
 const db = async() =>{
     try {
-        await mongoose.connect("mongodb://localhost:27017/Demo");
+        await mongoose.connect("mongodb+srv://shivangsha350:shivangsha350@cluster0.aglms.mongodb.net/Demo");
         console.log("Database connected successfully");
     } catch (error) {
         console.error("Error connecting to the database", error);
