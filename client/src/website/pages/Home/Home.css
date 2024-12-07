@@ -1,0 +1,51 @@
+.style{
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-collapse: collapse;
+}
+
+/* Container ko center karne ke liye */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Search box ko styling dene ke liye */
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Input aur button ke beech mein gap */
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input field ki styling */
+  .search-box input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 250px; /* Input ki width set ki */
+  }
+  
+  /* Button ki styling */
+  .search-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  .search-box button:hover {
+    background-color: #45a049;
+  }
+  
