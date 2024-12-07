@@ -1,6 +1,6 @@
 const express = require("express")
 const App = express()
-// let PORT = 8000
+let PORT = 8000
 const mongoose = require('mongoose')
 const postModel = require("./model/postModel")
 const cors = require("cors")
