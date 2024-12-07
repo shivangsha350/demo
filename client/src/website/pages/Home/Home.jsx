@@ -8,7 +8,7 @@ function Home() {
 
   let database = async()=>{
     try {
-      let response = await axios.get(`https://demo-client-5p11.onrender.com/get?searchTerm=${searchTerm}`)
+      let response = await axios.get(`https://demo-server-ns4l.onrender.com/get?searchTerm=${searchTerm}`)
       setA(response.data);
     } catch (error) {
       console.log(error)
