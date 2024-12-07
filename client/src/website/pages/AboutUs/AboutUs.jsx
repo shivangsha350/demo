@@ -10,7 +10,7 @@ function AboutUs() {
 
   const database_post = async(obj)=>{
     try {
-      await axios.post("http://localhost:8000/post", obj)
+      await axios.post("https://demo-client-5p11.onrender.com/post", obj)
     } catch (error) {
       console.log(error);
     }
